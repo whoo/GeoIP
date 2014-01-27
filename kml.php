@@ -1,4 +1,4 @@
-<?
+<?php
 header('Content-type: application/vnd.google-earth.kml+xml');
 header('Content-Disposition: attachment; filename="export.kml"');
 #header('Content-type: text/plain');

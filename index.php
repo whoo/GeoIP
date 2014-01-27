@@ -1,4 +1,4 @@
-<?
+<?php
 @apache_setenv('no-gzip', 1);
 @ini_set('zlib.output_compression', 0);
 @ini_set('output_buffering',0);
@@ -24,7 +24,7 @@ textarea { width: 90%; height: 350px;}
 </style>
 <body>
 <h1>Ip 2 Info</h1>
-<?
+<?php
 $mys = new mysqli($host,$root,$pass,'geoip');
 
 if ($mys->connect_errno) {

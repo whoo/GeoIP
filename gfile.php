@@ -1,4 +1,4 @@
-<?
+<?php
 $file=(isset($_GET['file']))?"temp/".basename($_GET['file']):NULL;
 #if (!is_file($file)) exit;
 

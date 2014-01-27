@@ -1,4 +1,4 @@
-<?
+<?php
 $file=glob('temp/ip-*');
 
 foreach($file as $a)

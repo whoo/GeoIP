@@ -13,7 +13,7 @@ body { background-color: #EEE ;}
 </style>
 </head>
 
-<?
+<?php
 	$dt=md5(time());
 	$file=(isset($_GET['file']))?basename($_GET['file']):NULL;
 	$proto="http";
