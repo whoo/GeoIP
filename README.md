@@ -2,14 +2,16 @@ GeoIP
 =====
 
 GeoIP from IP with maxmind data
-Need to adapte pass.php relative to your database
+Need to adapte pass.php.tpl to pass.php relative to your database.
+
+Check for short php Tags
 
 
-Mysql/RunMe.sh
-will download and populate your geoip database
-Update script to change database name.
+Go to Mysql/RunMe.sh
+- It will download and populate your geoip database
+- Update script to change database name.
 
-	-------------------------
+------------------------------------------
 
 CC  Creative commons.
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
